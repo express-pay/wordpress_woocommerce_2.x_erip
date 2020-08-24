@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-27 11:35+0300\n"
+"PO-Revision-Date: 2016-05-27 11:36+0300\n"
+"Last-Translator: Vladimir Savrov <vladimir.savrov@hb.by>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: class-wc-gateway-erip-expresspay.php\n"
+
+#: class-wc-gateway-erip-expresspay.php:41
+msgid "Система \"Расчет\" ЕРИП"
+msgstr "System \"Accounting\" ERIP"
+
+#: class-wc-gateway-erip-expresspay.php:62
+msgid "«Экспресс Платежи: ЕРИП»"
+msgstr "«Express Payments: ERIP»"
+
+#: class-wc-gateway-erip-expresspay.php:67
+msgid ""
+"«Экспресс Платежи: ЕРИП» - плагин для интеграции с сервисом «Экспресс "
+"Платежи» (express-pay.by) через API. \n"
+"\t\t\t\t<br/>Плагин позволяет выставить счет в системе ЕРИП, получить и "
+"обработать уведомление о платеже в системе ЕРИП.\n"
+"\t\t\t\t<br/>Описание плагина доступно по адресу: "
+msgstr ""
+"«Express Payments: ERIP» - plug-in for integration with the service «Express "
+"Payments» (express-pay.by) through the API.\n"
+"\t\t\t\t<br/>plugin allows you to invoice in ERIP system to receive and "
+"process the payment notice in the ERIP system.\n"
+"\t\t\t\t<br/>Description plugin is available at: "
+
+#: class-wc-gateway-erip-expresspay.php:79
+msgid "© Все права защищены | ООО «ТриИнком»,"
+msgstr "© All rights reserved | TriIncom Ltd,"
+
+#: class-wc-gateway-erip-expresspay.php:80
+msgid "Версия"
+msgstr "Version"
+
+#: class-wc-gateway-erip-expresspay.php:88
+msgid "Включить/Выключить"
+msgstr "Switch on/off"
+
+#: class-wc-gateway-erip-expresspay.php:93
+msgid "Токен"
+msgstr "Token"
+
+#: class-wc-gateway-erip-expresspay.php:95
+msgid "Генерирутся в панели express-pay.by"
+msgstr "Generate in panel express-pay.by"
+
+#: class-wc-gateway-erip-expresspay.php:99
+msgid "Адрес для уведомлений"
+msgstr "URL for notification"
+
+#: class-wc-gateway-erip-expresspay.php:105
+msgid "Использовать цифровую подпись для API"
+msgstr "Use digital signature for API"
+
+#: class-wc-gateway-erip-expresspay.php:107
+#: class-wc-gateway-erip-expresspay.php:119
+msgid "Параметр проверки запросов с использование цифровой подписи"
+msgstr "Parameter validation requests the use of digital signatures"
+
+#: class-wc-gateway-erip-expresspay.php:111
+msgid "Секретное слово для подписи счетов"
+msgstr "Secret word for signed invoices"
+
+#: class-wc-gateway-erip-expresspay.php:113
+#: class-wc-gateway-erip-expresspay.php:125
+msgid ""
+"Секретного слово, которое известно только серверу и клиенту. Используется "
+"для формирования цифровой подписи. Задается в панели express-pay.by"
+msgstr ""
+"A secret word that is known only to the server and the client. Used to form "
+"the digital signature. Set in express-pay.by panel"
+
+#: class-wc-gateway-erip-expresspay.php:117
+msgid "Использовать цифровую подпись для уведомлений"
+msgstr "Use digital signature for notification"
+
+#: class-wc-gateway-erip-expresspay.php:123
+msgid "Секретное слово для подписи уведомлений"
+msgstr "Secret word for signed notification"
+
+#: class-wc-gateway-erip-expresspay.php:129
+msgid "Разрешено изменять ФИО плательщика"
+msgstr "Allow edit full name payer"
+
+#: class-wc-gateway-erip-expresspay.php:131
+msgid "Разрешается при оплате счета изменять ФИО плательщика"
+msgstr "Allowed when paying bills to change the name of the payer"
+
+#: class-wc-gateway-erip-expresspay.php:135
+msgid "Разрешено изменять адрес плательщика"
+msgstr "Allow edit address payer"
+
+#: class-wc-gateway-erip-expresspay.php:137
+msgid "Разрешается при оплате счета изменять адрес плательщика"
+msgstr "Allowed when paying bills to change the address of the payer"
+
+#: class-wc-gateway-erip-expresspay.php:141
+msgid "Разрешено изменять сумму оплаты"
+msgstr "Allow edit amount payment"
+
+#: class-wc-gateway-erip-expresspay.php:143
+msgid "Разрешается при оплате счета изменять сумму платежа"
+msgstr "Allowed when paying bills to change the payment amount"
+
+#: class-wc-gateway-erip-expresspay.php:147
+msgid "Использовать тестовый режим"
+msgstr "Use test mode"
+
+#: class-wc-gateway-erip-expresspay.php:151
+msgid "Адрес API"
+msgstr "URL API"
+
+#: class-wc-gateway-erip-expresspay.php:156
+msgid "Адрес тестового API"
+msgstr "URL for sandbox API"
+
+#: class-wc-gateway-erip-expresspay.php:161
+msgid "Сообщение при успешном заказе"
+msgstr "Message in a successful order"
+
+#: class-wc-gateway-erip-expresspay.php:163
+msgid ""
+"Для оплаты заказа Вам необходимо перейти в раздел ЕРИП:\n"
+"\n"
+"Интернет-магазины\\Сервисы -> \"Первая буква доменного имени интернет-"
+"магазина\" -> \"Доменное имя интернет-магазина\"\n"
+"\n"
+"Далее введите номер заказа \"##order_id##\" и нажмите \"продолжить\".\n"
+"\n"
+"После поступления оплаты Ваш заказ поступит в обработку."
+msgstr ""
+"To order a payment, you must go to the section ERIP:\n"
+"\n"
+"Online shops \\ Services -> \"The first letter of a domain name online store"
+"\" -> \"The domain name is the online store\"\n"
+"\n"
+"Next, enter the order number \"##order_id##\" and click \"continue\".\n"
+"\n"
+"After payment is received your order will go on treatment."
+
+#: class-wc-gateway-erip-expresspay.php:250
+#: class-wc-gateway-erip-expresspay.php:352
+msgid "Счет успешно оплачен"
+msgstr "Invoice successful payment"
+
+#: class-wc-gateway-erip-expresspay.php:252
+msgid "Счет добавлен в систему ЕРИП для оплаты"
+msgstr "The score has been added to the payment method ERIP"
+
+#: class-wc-gateway-erip-expresspay.php:255
+msgid "Продолжить"
+msgstr "Continue"
+
+#: class-wc-gateway-erip-expresspay.php:266
+msgid "Тестовый режим:"
+msgstr "Test mode:"
+
+#: class-wc-gateway-erip-expresspay.php:267
+msgid "Отправить уведомление об успешной оплате"
+msgstr "Send notification for success payment"
+
+#: class-wc-gateway-erip-expresspay.php:268
+msgid "Отправить уведомление об отмене оплаты"
+msgstr "Send notification for cancel payment"
+
+#: class-wc-gateway-erip-expresspay.php:302
+msgid "Платеж не оплачен"
+msgstr "Payment is not paid"
+
+#: class-wc-gateway-erip-expresspay.php:304
+msgid "Ошибка выставления счета в системе ЕРИП"
+msgstr "An error in the payment method ERIP"
+
+#: class-wc-gateway-erip-expresspay.php:305
+msgid ""
+"При выполнении запроса произошла непредвиденная ошибка. Пожалуйста, "
+"повторите запрос позже или обратитесь в службу технической поддержки по "
+"адресу <a href='mailto:info@express-pay.by'>info@express-pay.by</a>"
+msgstr ""
+"An unexpected error occurred while executing the query. Please try again "
+"later or contact Technical Support at <a href='mailto:info@express-pay."
+"by'>info@express-pay.by</a>"
+
+#: class-wc-gateway-erip-expresspay.php:307
+msgid "Попробовать заново"
+msgstr "Again"
+
+#: class-wc-gateway-erip-expresspay.php:357
+msgid "Платеж отменён"
+msgstr "Payment canceled"
